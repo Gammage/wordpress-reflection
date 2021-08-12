@@ -1,0 +1,156 @@
+/*
+Theme Name: bravada edits
+Theme URI: http://localhost/Jasmins_animal_care/
+Description: This is a child theme of bravada
+Author: Ben Gammage
+Author Uri:
+Template: bravada
+version: 0.1
+*/
+
+@import url("../bravada/style.css");
+
+.home #site-wrapper {
+    background-color: #fbcce7;
+}
+
+.home div#content {
+    top: -80px;
+}
+
+
+body.page:not(.home) #header-image-main {
+    display:none;
+ };
+
+
+
+
+/* side bar removal  */
+/* side bar removal ends */
+
+
+/* contact page shit  */
+
+.post-28 .page .type-page .status-publish .hentry {
+    text-align: center;
+}
+
+.contact-icon-class {
+    text-align: center;
+}
+
+
+/* contact page ends  */
+
+/* footer shit */
+
+.wp-block-columns {
+    text-align: center;
+}
+
+.wp-block-column {
+    padding-bottom: 20px;
+}
+
+#colophon-inside, .footer-inside {
+    max-width: 100%;
+}
+
+body:not(.bravada-landing-page) #container, #colophon-inside, .footer-inside, #breadcrumbs-container-inside {
+    padding: 0;
+    max-width: none;
+}
+
+div#colophon-inside {
+    max-width: none;
+}
+
+
+#colophon .widget-container {
+    padding-bottom: 3em;
+}
+
+.home section#block-39.widget-container.widget_block {
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+#block-33 {
+    background-color: #ff69b4;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.wp-block-columns {
+    margin: 0;
+}
+
+div.footer-widget-inside .wp-block-columns {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+#block-39 {
+    background-color: #fbcce7;
+}
+
+#footer-bottom {
+    display: none;
+}
+
+#colophon-inside {
+    background-color: #fbcce7;
+}
+
+#footer.cryout {
+    background-color: #fbcce7;
+}
+
+#site-copyright {
+    color: #ff69b4;
+}
+
+/* footer shit end */
+
+@media (max-width: 1024px) {
+    .cryout #container[class*="three-"] .main, .cryout #container[class*="two-"] .main, .cryout #container[class*="one-"]:not(.bravada-landing-page) .main {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .meta-arrow {
+        display: block;
+    }
+}
+
+/* home header removal */
+
+.home #masthead.cryout {
+    /* display:none; */
+    top: -80px;
+  }
+
+
+   .meta-arrow {
+       font-size: 3em;
+       color: white;
+   }
+
+   /* .meta-arrow i::before {
+    /* animation:none; */
+    /* -webkit-animation:none; */
+   
+    img.wp-image-289 {
+        border-radius: 50%;
+        border: 2px solid #ff69b4;
+    }
+
+
+
+      .home div.staticslider-caption {
+          height: 100vh;
+      }
+
+/* home header ends */
