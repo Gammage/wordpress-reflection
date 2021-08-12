@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 12, 2021 at 12:59 PM
+-- Generation Time: Aug 12, 2021 at 10:52 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.3
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `jasmins_site`
 --
+CREATE DATABASE IF NOT EXISTS `jasmins_site` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `jasmins_site`;
 
 -- --------------------------------------------------------
 
@@ -208,7 +210,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (102, 'WPLANG', 'en_GB', 'yes'),
 (103, 'widget_block', 'a:28:{i:2;a:1:{s:7:\"content\";s:19:\"<!-- wp:search /-->\";}i:3;a:1:{s:7:\"content\";s:154:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Posts</h2><!-- /wp:heading --><!-- wp:latest-posts /--></div><!-- /wp:group -->\";}i:4;a:1:{s:7:\"content\";s:227:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Comments</h2><!-- /wp:heading --><!-- wp:latest-comments {\"displayAvatar\":false,\"displayDate\":false,\"displayExcerpt\":false} /--></div><!-- /wp:group -->\";}i:5;a:1:{s:7:\"content\";s:146:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Archives</h2><!-- /wp:heading --><!-- wp:archives /--></div><!-- /wp:group -->\";}i:6;a:1:{s:7:\"content\";s:150:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Categories</h2><!-- /wp:heading --><!-- wp:categories /--></div><!-- /wp:group -->\";}i:8;a:1:{s:7:\"content\";s:259:\"<!-- wp:image {\"id\":13,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"http://localhost/Jasmins_animal_care/wp-content/uploads/2021/07/jazzieslogo.jpg\" alt=\"\" class=\"wp-image-13\"/></figure>\n<!-- /wp:image -->\";}i:11;a:1:{s:7:\"content\";s:159:\"<!-- wp:gallery {\"linkTo\":\"none\"} -->\n<figure class=\"wp-block-gallery columns-0 is-cropped\"><ul class=\"blocks-gallery-grid\"></ul></figure>\n<!-- /wp:gallery -->\";}i:12;a:1:{s:7:\"content\";s:269:\"<!-- wp:image {\"id\":12,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"http://localhost/Jasmins_animal_care/wp-content/uploads/2021/07/dog3happyjpg.jpg\" alt=\"Happy dog\" class=\"wp-image-12\"/></figure>\n<!-- /wp:image -->\";}i:14;a:1:{s:7:\"content\";s:493:\"<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\n<p>lorem ipsum</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\n<p>lorem ipswum</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\n<p>lorem ipsum</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\";}i:16;a:1:{s:7:\"content\";s:492:\"<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\n<p>Lorem ipsum</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\n<p>lorem ipsum</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\n<p>lorem ipsum</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\";}i:17;a:1:{s:7:\"content\";s:320:\"<!-- wp:image {\"id\":13,\"width\":115,\"height\":115,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full is-resized\"><img src=\"http://localhost/Jasmins_animal_care/wp-content/uploads/2021/07/jazzieslogo.jpg\" alt=\"\" class=\"wp-image-13\" width=\"115\" height=\"115\"/></figure>\n<!-- /wp:image -->\";}i:18;a:1:{s:7:\"content\";s:90:\"<!-- wp:social-links -->\n<ul class=\"wp-block-social-links\"></ul>\n<!-- /wp:social-links -->\";}i:19;a:1:{s:7:\"content\";s:337:\"<!-- wp:social-links {\"size\":\"has-normal-icon-size\"} -->\n<ul class=\"wp-block-social-links has-normal-icon-size\"><!-- wp:social-link {\"url\":\"https://www.facebook.com/jazziespetservices/\",\"service\":\"facebook\"} /-->\n\n<!-- wp:social-link {\"url\":\"https://www.instagram.com/gammage_/\",\"service\":\"instagram\"} /--></ul>\n<!-- /wp:social-links -->\";}i:21;a:1:{s:7:\"content\";s:52:\"<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\";}i:22;a:1:{s:7:\"content\";s:50:\"<!-- wp:heading -->\n<h2></h2>\n<!-- /wp:heading -->\";}i:23;a:1:{s:7:\"content\";s:52:\"<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\";}i:24;a:1:{s:7:\"content\";s:52:\"<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\";}i:25;a:1:{s:7:\"content\";s:52:\"<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\";}i:26;a:1:{s:7:\"content\";s:64:\"<!-- wp:paragraph -->\n<p>07933 617421</p>\n<!-- /wp:paragraph -->\";}i:27;a:1:{s:7:\"content\";s:259:\"<!-- wp:image {\"id\":13,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"http://localhost/Jasmins_animal_care/wp-content/uploads/2021/07/jazzieslogo.jpg\" alt=\"\" class=\"wp-image-13\"/></figure>\n<!-- /wp:image -->\";}i:29;a:1:{s:7:\"content\";s:52:\"<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\";}i:30;a:1:{s:7:\"content\";s:269:\"<!-- wp:image {\"id\":12,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"http://localhost/Jasmins_animal_care/wp-content/uploads/2021/07/dog3happyjpg.jpg\" alt=\"Happy dog\" class=\"wp-image-12\"/></figure>\n<!-- /wp:image -->\";}i:33;a:1:{s:7:\"content\";s:1451:\"<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column {\"className\":\"footer-icon-class\"} -->\n<div class=\"wp-block-column footer-icon-class\"><!-- wp:html -->\n<p><i style=\"font-size:40px;\" class=\"fas fa-user-graduate\"></i></p>\n<!-- /wp:html -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\">Fully qualified</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"footer-icon-class\"} -->\n<div class=\"wp-block-column footer-icon-class\"><!-- wp:html -->\n<p><i style=\"font-size:40px;\" class=\"fas fa-shield-alt\"></i></p>\n<!-- /wp:html -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\">Insured</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"footer-icon-class\"} -->\n<div class=\"wp-block-column footer-icon-class\"><!-- wp:html -->\n<p><i style=\"font-size:40px;\" class=\"fas fa-scroll\"></i></p>\n<!-- /wp:html -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\">Dbs certified</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"footer-icon-class\"} -->\n<div class=\"wp-block-column footer-icon-class\"><!-- wp:html -->\n<p><i style=\"font-size:40px;\" class=\"fas fa-first-aid\"></i></p>\n<!-- /wp:html -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\">Dog First Aid Certified</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\";}i:34;a:1:{s:7:\"content\";s:59:\"<!-- wp:paragraph -->\n<p>dfgfdgd</p>\n<!-- /wp:paragraph -->\";}i:36;a:1:{s:7:\"content\";s:351:\"<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\n<p>gdfgdfgdfg</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph -->\n<p>gdfgfdgfdg</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\";}i:38;a:1:{s:7:\"content\";s:323:\"<!-- wp:social-links {\"size\":\"has-huge-icon-size\"} -->\n<ul class=\"wp-block-social-links has-huge-icon-size\"><!-- wp:social-link {\"url\":\"https://www.facebook.com/jazziespetservices\",\"service\":\"facebook\"} /-->\n\n<!-- wp:social-link {\"url\":\"https://www.instagram.com/\",\"service\":\"instagram\"} /--></ul>\n<!-- /wp:social-links -->\";}i:39;a:1:{s:7:\"content\";s:406:\"<!-- wp:social-links {\"size\":\"has-huge-icon-size\",\"align\":\"center\",\"className\":\"is-style-logos-only\"} -->\n<ul class=\"wp-block-social-links aligncenter has-huge-icon-size is-style-logos-only\"><!-- wp:social-link {\"url\":\"https://www.facebook.com/jazziespetservices\",\"service\":\"facebook\"} /-->\n\n<!-- wp:social-link {\"url\":\"https://www.instagram.com/\",\"service\":\"instagram\"} /--></ul>\n<!-- /wp:social-links -->\";}s:12:\"_multiwidget\";i:1;}', 'yes'),
 (104, 'sidebars_widgets', 'a:9:{s:19:\"wp_inactive_widgets\";a:24:{i:0;s:8:\"block-30\";i:1;s:8:\"block-36\";i:2;s:8:\"block-38\";i:3;s:8:\"block-34\";i:4;s:7:\"block-5\";i:5;s:7:\"block-6\";i:6;s:8:\"block-22\";i:7;s:8:\"block-14\";i:8;s:8:\"block-16\";i:9;s:8:\"block-17\";i:10;s:8:\"block-18\";i:11;s:8:\"block-21\";i:12;s:8:\"block-23\";i:13;s:8:\"block-24\";i:14;s:8:\"block-27\";i:15;s:7:\"block-2\";i:16;s:7:\"block-3\";i:17;s:7:\"block-4\";i:18;s:7:\"block-8\";i:19;s:8:\"block-11\";i:20;s:8:\"block-12\";i:21;s:8:\"block-19\";i:22;s:8:\"block-26\";i:23;s:8:\"block-25\";}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-1\";a:0:{}s:18:\"footer-widget-area\";a:2:{i:0;s:8:\"block-33\";i:1;s:8:\"block-39\";}s:26:\"content-widget-area-before\";a:0:{}s:25:\"content-widget-area-after\";a:0:{}s:18:\"widget-area-header\";a:1:{i:0;s:8:\"block-29\";}s:24:\"widget-area-side-section\";a:0:{}s:13:\"array_version\";i:3;}', 'yes'),
-(105, 'cron', 'a:9:{i:1628766951;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1628802951;a:4:{s:18:\"wp_https_detection\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1628846151;a:1:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1628846163;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1628846164;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1628846873;a:2:{s:13:\"wpseo-reindex\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:31:\"wpseo_permalink_structure_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1628932551;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}i:1629365273;a:1:{s:16:\"wpseo_ryte_fetch\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}s:7:\"version\";i:2;}', 'yes'),
+(105, 'cron', 'a:8:{i:1628802951;a:5:{s:18:\"wp_https_detection\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1628846151;a:1:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1628846163;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1628846164;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1628846873;a:2:{s:13:\"wpseo-reindex\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:31:\"wpseo_permalink_structure_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1628932551;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}i:1629365273;a:1:{s:16:\"wpseo_ryte_fetch\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}s:7:\"version\";i:2;}', 'yes'),
 (106, 'widget_pages', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (107, 'widget_calendar', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (108, 'widget_archives', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
@@ -291,8 +293,8 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (612, 'ml-slider_tracking_last_send', '1628613332', 'yes'),
 (614, 'ml-slider_children', 'a:0:{}', 'yes'),
 (615, 'metaslider_tour_cancelled_on', 'add-slide', 'yes'),
-(628, '_site_transient_timeout_community-events-d41d8cd98f00b204e9800998ecf8427e', '1628809031', 'no'),
-(629, '_site_transient_community-events-d41d8cd98f00b204e9800998ecf8427e', 'a:4:{s:9:\"sandboxed\";b:0;s:5:\"error\";N;s:8:\"location\";a:1:{s:2:\"ip\";b:0;}s:6:\"events\";a:6:{i:0;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:47:\"Watch party + Discussion group: How to use Trac\";s:3:\"url\";s:68:\"https://www.meetup.com/learn-wordpress-discussions/events/279751846/\";s:6:\"meetup\";s:27:\"Learn WordPress Discussions\";s:10:\"meetup_url\";s:51:\"https://www.meetup.com/learn-wordpress-discussions/\";s:4:\"date\";s:19:\"2021-08-12 07:00:00\";s:8:\"end_date\";s:19:\"2021-08-12 08:00:00\";s:20:\"start_unix_timestamp\";i:1628776800;s:18:\"end_unix_timestamp\";i:1628780400;s:8:\"location\";a:4:{s:8:\"location\";s:6:\"Online\";s:7:\"country\";s:2:\"US\";s:8:\"latitude\";d:37.779998779297;s:9:\"longitude\";d:-122.41999816895;}}i:1;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:23:\"WordPress Meetup - WPTW\";s:3:\"url\";s:77:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/events/dznmlpyccmbdb/\";s:6:\"meetup\";s:39:\"WordPress Tunbridge Wells Meetup - WPTW\";s:10:\"meetup_url\";s:56:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/\";s:4:\"date\";s:19:\"2021-09-02 19:00:00\";s:8:\"end_date\";s:19:\"2021-09-02 22:00:00\";s:20:\"start_unix_timestamp\";i:1630605600;s:18:\"end_unix_timestamp\";i:1630616400;s:8:\"location\";a:4:{s:8:\"location\";s:31:\"Tunbridge Wells, United Kingdom\";s:7:\"country\";s:2:\"gb\";s:8:\"latitude\";d:51.133113861084;s:9:\"longitude\";d:0.265242010355;}}i:2;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:23:\"WordPress Meetup - WPTW\";s:3:\"url\";s:77:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/events/dznmlpyccnbkb/\";s:6:\"meetup\";s:39:\"WordPress Tunbridge Wells Meetup - WPTW\";s:10:\"meetup_url\";s:56:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/\";s:4:\"date\";s:19:\"2021-10-07 19:00:00\";s:8:\"end_date\";s:19:\"2021-10-07 22:00:00\";s:20:\"start_unix_timestamp\";i:1633629600;s:18:\"end_unix_timestamp\";i:1633640400;s:8:\"location\";a:4:{s:8:\"location\";s:31:\"Tunbridge Wells, United Kingdom\";s:7:\"country\";s:2:\"gb\";s:8:\"latitude\";d:51.133113861084;s:9:\"longitude\";d:0.265242010355;}}i:3;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:23:\"WordPress Meetup - WPTW\";s:3:\"url\";s:77:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/events/dznmlpyccpbgb/\";s:6:\"meetup\";s:39:\"WordPress Tunbridge Wells Meetup - WPTW\";s:10:\"meetup_url\";s:56:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/\";s:4:\"date\";s:19:\"2021-11-04 19:00:00\";s:8:\"end_date\";s:19:\"2021-11-04 22:00:00\";s:20:\"start_unix_timestamp\";i:1636052400;s:18:\"end_unix_timestamp\";i:1636063200;s:8:\"location\";a:4:{s:8:\"location\";s:31:\"Tunbridge Wells, United Kingdom\";s:7:\"country\";s:2:\"gb\";s:8:\"latitude\";d:51.133113861084;s:9:\"longitude\";d:0.265242010355;}}i:4;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:23:\"WordPress Meetup - WPTW\";s:3:\"url\";s:77:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/events/dznmlpyccqbdb/\";s:6:\"meetup\";s:39:\"WordPress Tunbridge Wells Meetup - WPTW\";s:10:\"meetup_url\";s:56:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/\";s:4:\"date\";s:19:\"2021-12-02 19:00:00\";s:8:\"end_date\";s:19:\"2021-12-02 22:00:00\";s:20:\"start_unix_timestamp\";i:1638471600;s:18:\"end_unix_timestamp\";i:1638482400;s:8:\"location\";a:4:{s:8:\"location\";s:31:\"Tunbridge Wells, United Kingdom\";s:7:\"country\";s:2:\"gb\";s:8:\"latitude\";d:51.133113861084;s:9:\"longitude\";d:0.265242010355;}}i:5;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:23:\"WordPress Meetup - WPTW\";s:3:\"url\";s:77:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/events/dznmlpydccbjb/\";s:6:\"meetup\";s:39:\"WordPress Tunbridge Wells Meetup - WPTW\";s:10:\"meetup_url\";s:56:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/\";s:4:\"date\";s:19:\"2022-01-06 19:00:00\";s:8:\"end_date\";s:19:\"2022-01-06 22:00:00\";s:20:\"start_unix_timestamp\";i:1641495600;s:18:\"end_unix_timestamp\";i:1641506400;s:8:\"location\";a:4:{s:8:\"location\";s:31:\"Tunbridge Wells, United Kingdom\";s:7:\"country\";s:2:\"gb\";s:8:\"latitude\";d:51.133113861084;s:9:\"longitude\";d:0.265242010355;}}}}', 'no'),
+(628, '_site_transient_timeout_community-events-d41d8cd98f00b204e9800998ecf8427e', '1628844629', 'no'),
+(629, '_site_transient_community-events-d41d8cd98f00b204e9800998ecf8427e', 'a:4:{s:9:\"sandboxed\";b:0;s:5:\"error\";N;s:8:\"location\";a:1:{s:2:\"ip\";b:0;}s:6:\"events\";a:6:{i:0;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:47:\"Watch party + Discussion group: How to use Trac\";s:3:\"url\";s:68:\"https://www.meetup.com/learn-wordpress-discussions/events/279751846/\";s:6:\"meetup\";s:27:\"Learn WordPress Discussions\";s:10:\"meetup_url\";s:51:\"https://www.meetup.com/learn-wordpress-discussions/\";s:4:\"date\";s:19:\"2021-08-12 07:00:00\";s:8:\"end_date\";s:19:\"2021-08-12 08:00:00\";s:20:\"start_unix_timestamp\";i:1628776800;s:18:\"end_unix_timestamp\";i:1628780400;s:8:\"location\";a:4:{s:8:\"location\";s:6:\"Online\";s:7:\"country\";s:2:\"US\";s:8:\"latitude\";d:37.779998779297;s:9:\"longitude\";d:-122.41999816895;}}i:1;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:23:\"WordPress Meetup - WPTW\";s:3:\"url\";s:77:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/events/dznmlpyccmbdb/\";s:6:\"meetup\";s:39:\"WordPress Tunbridge Wells Meetup - WPTW\";s:10:\"meetup_url\";s:56:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/\";s:4:\"date\";s:19:\"2021-09-02 19:00:00\";s:8:\"end_date\";s:19:\"2021-09-02 22:00:00\";s:20:\"start_unix_timestamp\";i:1630605600;s:18:\"end_unix_timestamp\";i:1630616400;s:8:\"location\";a:4:{s:8:\"location\";s:31:\"Tunbridge Wells, United Kingdom\";s:7:\"country\";s:2:\"gb\";s:8:\"latitude\";d:51.133113861084;s:9:\"longitude\";d:0.265242010355;}}i:2;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:48:\"WordPress Oxford:  The Power of Gutenberg Blocks\";s:3:\"url\";s:53:\"https://www.meetup.com/WordPress-OX/events/280074858/\";s:6:\"meetup\";s:4:\"WPOX\";s:10:\"meetup_url\";s:36:\"https://www.meetup.com/WordPress-OX/\";s:4:\"date\";s:19:\"2021-09-15 19:30:00\";s:8:\"end_date\";s:19:\"2021-09-15 20:30:00\";s:20:\"start_unix_timestamp\";i:1631730600;s:18:\"end_unix_timestamp\";i:1631734200;s:8:\"location\";a:4:{s:8:\"location\";s:6:\"Online\";s:7:\"country\";s:2:\"GB\";s:8:\"latitude\";d:51.740001678467;s:9:\"longitude\";d:-1.2400000095367;}}i:3;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:23:\"WordPress Meetup - WPTW\";s:3:\"url\";s:77:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/events/dznmlpyccnbkb/\";s:6:\"meetup\";s:39:\"WordPress Tunbridge Wells Meetup - WPTW\";s:10:\"meetup_url\";s:56:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/\";s:4:\"date\";s:19:\"2021-10-07 19:00:00\";s:8:\"end_date\";s:19:\"2021-10-07 22:00:00\";s:20:\"start_unix_timestamp\";i:1633629600;s:18:\"end_unix_timestamp\";i:1633640400;s:8:\"location\";a:4:{s:8:\"location\";s:31:\"Tunbridge Wells, United Kingdom\";s:7:\"country\";s:2:\"gb\";s:8:\"latitude\";d:51.133113861084;s:9:\"longitude\";d:0.265242010355;}}i:4;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:23:\"WordPress Meetup - WPTW\";s:3:\"url\";s:77:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/events/dznmlpyccpbgb/\";s:6:\"meetup\";s:39:\"WordPress Tunbridge Wells Meetup - WPTW\";s:10:\"meetup_url\";s:56:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/\";s:4:\"date\";s:19:\"2021-11-04 19:00:00\";s:8:\"end_date\";s:19:\"2021-11-04 22:00:00\";s:20:\"start_unix_timestamp\";i:1636052400;s:18:\"end_unix_timestamp\";i:1636063200;s:8:\"location\";a:4:{s:8:\"location\";s:31:\"Tunbridge Wells, United Kingdom\";s:7:\"country\";s:2:\"gb\";s:8:\"latitude\";d:51.133113861084;s:9:\"longitude\";d:0.265242010355;}}i:5;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:23:\"WordPress Meetup - WPTW\";s:3:\"url\";s:77:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/events/dznmlpyccqbdb/\";s:6:\"meetup\";s:39:\"WordPress Tunbridge Wells Meetup - WPTW\";s:10:\"meetup_url\";s:56:\"https://www.meetup.com/WordPress-Tunbridge-Wells-Meetup/\";s:4:\"date\";s:19:\"2021-12-02 19:00:00\";s:8:\"end_date\";s:19:\"2021-12-02 22:00:00\";s:20:\"start_unix_timestamp\";i:1638471600;s:18:\"end_unix_timestamp\";i:1638482400;s:8:\"location\";a:4:{s:8:\"location\";s:31:\"Tunbridge Wells, United Kingdom\";s:7:\"country\";s:2:\"gb\";s:8:\"latitude\";d:51.133113861084;s:9:\"longitude\";d:0.265242010355;}}}}', 'no'),
 (644, 'sticky_anything_options', 'a:13:{s:10:\"sa_version\";s:5:\"2.1.1\";s:10:\"sa_element\";s:9:\"#masthead\";s:11:\"sa_topspace\";s:0:\"\";s:11:\"sa_adminbar\";b:1;s:17:\"sa_minscreenwidth\";s:0:\"\";s:17:\"sa_maxscreenwidth\";s:0:\"\";s:9:\"sa_zindex\";s:3:\"999\";s:13:\"sa_legacymode\";b:0;s:14:\"sa_dynamicmode\";b:0;s:12:\"sa_debugmode\";b:0;s:9:\"sa_pushup\";s:9:\"#masthead\";s:27:\"sa_hide_review_notification\";b:0;s:6:\"sa_tab\";s:8:\"advanced\";}', 'yes'),
 (656, '_site_transient_timeout_theme_roots', '1628760873', 'no'),
 (657, '_site_transient_theme_roots', 'a:9:{s:13:\"bravada-child\";s:7:\"/themes\";s:7:\"bravada\";s:7:\"/themes\";s:10:\"colibri-wp\";s:7:\"/themes\";s:10:\"foliopress\";s:7:\"/themes\";s:13:\"generatepress\";s:7:\"/themes\";s:7:\"oceanwp\";s:7:\"/themes\";s:14:\"twentynineteen\";s:7:\"/themes\";s:12:\"twentytwenty\";s:7:\"/themes\";s:15:\"twentytwentyone\";s:7:\"/themes\";}', 'no'),
@@ -341,12 +343,12 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (718, 'rewrite_rules', 'a:120:{s:19:\"sitemap_index\\.xml$\";s:19:\"index.php?sitemap=1\";s:31:\"([^/]+?)-sitemap([0-9]+)?\\.xml$\";s:51:\"index.php?sitemap=$matches[1]&sitemap_n=$matches[2]\";s:24:\"([a-z]+)?-?sitemap\\.xsl$\";s:39:\"index.php?yoast-sitemap-xsl=$matches[1]\";s:11:\"^wp-json/?$\";s:22:\"index.php?rest_route=/\";s:14:\"^wp-json/(.*)?\";s:33:\"index.php?rest_route=/$matches[1]\";s:21:\"^index.php/wp-json/?$\";s:22:\"index.php?rest_route=/\";s:24:\"^index.php/wp-json/(.*)?\";s:33:\"index.php?rest_route=/$matches[1]\";s:17:\"^wp-sitemap\\.xml$\";s:23:\"index.php?sitemap=index\";s:17:\"^wp-sitemap\\.xsl$\";s:36:\"index.php?sitemap-stylesheet=sitemap\";s:23:\"^wp-sitemap-index\\.xsl$\";s:34:\"index.php?sitemap-stylesheet=index\";s:48:\"^wp-sitemap-([a-z]+?)-([a-z\\d_-]+?)-(\\d+?)\\.xml$\";s:75:\"index.php?sitemap=$matches[1]&sitemap-subtype=$matches[2]&paged=$matches[3]\";s:34:\"^wp-sitemap-([a-z]+?)-(\\d+?)\\.xml$\";s:47:\"index.php?sitemap=$matches[1]&paged=$matches[2]\";s:71:\"cryout_serious_slider_category/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:83:\"index.php?taxonomy=cryout_serious_slider_category&term=$matches[1]&feed=$matches[2]\";s:66:\"cryout_serious_slider_category/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:83:\"index.php?taxonomy=cryout_serious_slider_category&term=$matches[1]&feed=$matches[2]\";s:47:\"cryout_serious_slider_category/([^/]+)/embed/?$\";s:77:\"index.php?taxonomy=cryout_serious_slider_category&term=$matches[1]&embed=true\";s:59:\"cryout_serious_slider_category/([^/]+)/page/?([0-9]{1,})/?$\";s:84:\"index.php?taxonomy=cryout_serious_slider_category&term=$matches[1]&paged=$matches[2]\";s:41:\"cryout_serious_slider_category/([^/]+)/?$\";s:66:\"index.php?taxonomy=cryout_serious_slider_category&term=$matches[1]\";s:47:\"category/(.+?)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:52:\"index.php?category_name=$matches[1]&feed=$matches[2]\";s:42:\"category/(.+?)/(feed|rdf|rss|rss2|atom)/?$\";s:52:\"index.php?category_name=$matches[1]&feed=$matches[2]\";s:23:\"category/(.+?)/embed/?$\";s:46:\"index.php?category_name=$matches[1]&embed=true\";s:35:\"category/(.+?)/page/?([0-9]{1,})/?$\";s:53:\"index.php?category_name=$matches[1]&paged=$matches[2]\";s:17:\"category/(.+?)/?$\";s:35:\"index.php?category_name=$matches[1]\";s:44:\"tag/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:42:\"index.php?tag=$matches[1]&feed=$matches[2]\";s:39:\"tag/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:42:\"index.php?tag=$matches[1]&feed=$matches[2]\";s:20:\"tag/([^/]+)/embed/?$\";s:36:\"index.php?tag=$matches[1]&embed=true\";s:32:\"tag/([^/]+)/page/?([0-9]{1,})/?$\";s:43:\"index.php?tag=$matches[1]&paged=$matches[2]\";s:14:\"tag/([^/]+)/?$\";s:25:\"index.php?tag=$matches[1]\";s:45:\"type/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:50:\"index.php?post_format=$matches[1]&feed=$matches[2]\";s:40:\"type/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:50:\"index.php?post_format=$matches[1]&feed=$matches[2]\";s:21:\"type/([^/]+)/embed/?$\";s:44:\"index.php?post_format=$matches[1]&embed=true\";s:33:\"type/([^/]+)/page/?([0-9]{1,})/?$\";s:51:\"index.php?post_format=$matches[1]&paged=$matches[2]\";s:15:\"type/([^/]+)/?$\";s:33:\"index.php?post_format=$matches[1]\";s:48:\"cryout_serious_slide/[^/]+/attachment/([^/]+)/?$\";s:32:\"index.php?attachment=$matches[1]\";s:58:\"cryout_serious_slide/[^/]+/attachment/([^/]+)/trackback/?$\";s:37:\"index.php?attachment=$matches[1]&tb=1\";s:78:\"cryout_serious_slide/[^/]+/attachment/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:73:\"cryout_serious_slide/[^/]+/attachment/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:73:\"cryout_serious_slide/[^/]+/attachment/([^/]+)/comment-page-([0-9]{1,})/?$\";s:50:\"index.php?attachment=$matches[1]&cpage=$matches[2]\";s:54:\"cryout_serious_slide/[^/]+/attachment/([^/]+)/embed/?$\";s:43:\"index.php?attachment=$matches[1]&embed=true\";s:37:\"cryout_serious_slide/([^/]+)/embed/?$\";s:53:\"index.php?cryout_serious_slide=$matches[1]&embed=true\";s:41:\"cryout_serious_slide/([^/]+)/trackback/?$\";s:47:\"index.php?cryout_serious_slide=$matches[1]&tb=1\";s:49:\"cryout_serious_slide/([^/]+)/page/?([0-9]{1,})/?$\";s:60:\"index.php?cryout_serious_slide=$matches[1]&paged=$matches[2]\";s:56:\"cryout_serious_slide/([^/]+)/comment-page-([0-9]{1,})/?$\";s:60:\"index.php?cryout_serious_slide=$matches[1]&cpage=$matches[2]\";s:45:\"cryout_serious_slide/([^/]+)(?:/([0-9]+))?/?$\";s:59:\"index.php?cryout_serious_slide=$matches[1]&page=$matches[2]\";s:37:\"cryout_serious_slide/[^/]+/([^/]+)/?$\";s:32:\"index.php?attachment=$matches[1]\";s:47:\"cryout_serious_slide/[^/]+/([^/]+)/trackback/?$\";s:37:\"index.php?attachment=$matches[1]&tb=1\";s:67:\"cryout_serious_slide/[^/]+/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:62:\"cryout_serious_slide/[^/]+/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:62:\"cryout_serious_slide/[^/]+/([^/]+)/comment-page-([0-9]{1,})/?$\";s:50:\"index.php?attachment=$matches[1]&cpage=$matches[2]\";s:43:\"cryout_serious_slide/[^/]+/([^/]+)/embed/?$\";s:43:\"index.php?attachment=$matches[1]&embed=true\";s:48:\".*wp-(atom|rdf|rss|rss2|feed|commentsrss2)\\.php$\";s:18:\"index.php?feed=old\";s:20:\".*wp-app\\.php(/.*)?$\";s:19:\"index.php?error=403\";s:18:\".*wp-register.php$\";s:23:\"index.php?register=true\";s:32:\"feed/(feed|rdf|rss|rss2|atom)/?$\";s:27:\"index.php?&feed=$matches[1]\";s:27:\"(feed|rdf|rss|rss2|atom)/?$\";s:27:\"index.php?&feed=$matches[1]\";s:8:\"embed/?$\";s:21:\"index.php?&embed=true\";s:20:\"page/?([0-9]{1,})/?$\";s:28:\"index.php?&paged=$matches[1]\";s:27:\"comment-page-([0-9]{1,})/?$\";s:39:\"index.php?&page_id=40&cpage=$matches[1]\";s:41:\"comments/feed/(feed|rdf|rss|rss2|atom)/?$\";s:42:\"index.php?&feed=$matches[1]&withcomments=1\";s:36:\"comments/(feed|rdf|rss|rss2|atom)/?$\";s:42:\"index.php?&feed=$matches[1]&withcomments=1\";s:17:\"comments/embed/?$\";s:21:\"index.php?&embed=true\";s:44:\"search/(.+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:40:\"index.php?s=$matches[1]&feed=$matches[2]\";s:39:\"search/(.+)/(feed|rdf|rss|rss2|atom)/?$\";s:40:\"index.php?s=$matches[1]&feed=$matches[2]\";s:20:\"search/(.+)/embed/?$\";s:34:\"index.php?s=$matches[1]&embed=true\";s:32:\"search/(.+)/page/?([0-9]{1,})/?$\";s:41:\"index.php?s=$matches[1]&paged=$matches[2]\";s:14:\"search/(.+)/?$\";s:23:\"index.php?s=$matches[1]\";s:47:\"author/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:50:\"index.php?author_name=$matches[1]&feed=$matches[2]\";s:42:\"author/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:50:\"index.php?author_name=$matches[1]&feed=$matches[2]\";s:23:\"author/([^/]+)/embed/?$\";s:44:\"index.php?author_name=$matches[1]&embed=true\";s:35:\"author/([^/]+)/page/?([0-9]{1,})/?$\";s:51:\"index.php?author_name=$matches[1]&paged=$matches[2]\";s:17:\"author/([^/]+)/?$\";s:33:\"index.php?author_name=$matches[1]\";s:69:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/feed/(feed|rdf|rss|rss2|atom)/?$\";s:80:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&feed=$matches[4]\";s:64:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/(feed|rdf|rss|rss2|atom)/?$\";s:80:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&feed=$matches[4]\";s:45:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/embed/?$\";s:74:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&embed=true\";s:57:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/page/?([0-9]{1,})/?$\";s:81:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&paged=$matches[4]\";s:39:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/?$\";s:63:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]\";s:56:\"([0-9]{4})/([0-9]{1,2})/feed/(feed|rdf|rss|rss2|atom)/?$\";s:64:\"index.php?year=$matches[1]&monthnum=$matches[2]&feed=$matches[3]\";s:51:\"([0-9]{4})/([0-9]{1,2})/(feed|rdf|rss|rss2|atom)/?$\";s:64:\"index.php?year=$matches[1]&monthnum=$matches[2]&feed=$matches[3]\";s:32:\"([0-9]{4})/([0-9]{1,2})/embed/?$\";s:58:\"index.php?year=$matches[1]&monthnum=$matches[2]&embed=true\";s:44:\"([0-9]{4})/([0-9]{1,2})/page/?([0-9]{1,})/?$\";s:65:\"index.php?year=$matches[1]&monthnum=$matches[2]&paged=$matches[3]\";s:26:\"([0-9]{4})/([0-9]{1,2})/?$\";s:47:\"index.php?year=$matches[1]&monthnum=$matches[2]\";s:43:\"([0-9]{4})/feed/(feed|rdf|rss|rss2|atom)/?$\";s:43:\"index.php?year=$matches[1]&feed=$matches[2]\";s:38:\"([0-9]{4})/(feed|rdf|rss|rss2|atom)/?$\";s:43:\"index.php?year=$matches[1]&feed=$matches[2]\";s:19:\"([0-9]{4})/embed/?$\";s:37:\"index.php?year=$matches[1]&embed=true\";s:31:\"([0-9]{4})/page/?([0-9]{1,})/?$\";s:44:\"index.php?year=$matches[1]&paged=$matches[2]\";s:13:\"([0-9]{4})/?$\";s:26:\"index.php?year=$matches[1]\";s:58:\"[0-9]{4}/[0-9]{1,2}/[0-9]{1,2}/[^/]+/attachment/([^/]+)/?$\";s:32:\"index.php?attachment=$matches[1]\";s:68:\"[0-9]{4}/[0-9]{1,2}/[0-9]{1,2}/[^/]+/attachment/([^/]+)/trackback/?$\";s:37:\"index.php?attachment=$matches[1]&tb=1\";s:88:\"[0-9]{4}/[0-9]{1,2}/[0-9]{1,2}/[^/]+/attachment/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:83:\"[0-9]{4}/[0-9]{1,2}/[0-9]{1,2}/[^/]+/attachment/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:83:\"[0-9]{4}/[0-9]{1,2}/[0-9]{1,2}/[^/]+/attachment/([^/]+)/comment-page-([0-9]{1,})/?$\";s:50:\"index.php?attachment=$matches[1]&cpage=$matches[2]\";s:64:\"[0-9]{4}/[0-9]{1,2}/[0-9]{1,2}/[^/]+/attachment/([^/]+)/embed/?$\";s:43:\"index.php?attachment=$matches[1]&embed=true\";s:53:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/([^/]+)/embed/?$\";s:91:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&name=$matches[4]&embed=true\";s:57:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/([^/]+)/trackback/?$\";s:85:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&name=$matches[4]&tb=1\";s:77:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:97:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&name=$matches[4]&feed=$matches[5]\";s:72:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:97:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&name=$matches[4]&feed=$matches[5]\";s:65:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/([^/]+)/page/?([0-9]{1,})/?$\";s:98:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&name=$matches[4]&paged=$matches[5]\";s:72:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/([^/]+)/comment-page-([0-9]{1,})/?$\";s:98:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&name=$matches[4]&cpage=$matches[5]\";s:61:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/([^/]+)(?:/([0-9]+))?/?$\";s:97:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&name=$matches[4]&page=$matches[5]\";s:47:\"[0-9]{4}/[0-9]{1,2}/[0-9]{1,2}/[^/]+/([^/]+)/?$\";s:32:\"index.php?attachment=$matches[1]\";s:57:\"[0-9]{4}/[0-9]{1,2}/[0-9]{1,2}/[^/]+/([^/]+)/trackback/?$\";s:37:\"index.php?attachment=$matches[1]&tb=1\";s:77:\"[0-9]{4}/[0-9]{1,2}/[0-9]{1,2}/[^/]+/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:72:\"[0-9]{4}/[0-9]{1,2}/[0-9]{1,2}/[^/]+/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:72:\"[0-9]{4}/[0-9]{1,2}/[0-9]{1,2}/[^/]+/([^/]+)/comment-page-([0-9]{1,})/?$\";s:50:\"index.php?attachment=$matches[1]&cpage=$matches[2]\";s:53:\"[0-9]{4}/[0-9]{1,2}/[0-9]{1,2}/[^/]+/([^/]+)/embed/?$\";s:43:\"index.php?attachment=$matches[1]&embed=true\";s:64:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/comment-page-([0-9]{1,})/?$\";s:81:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&cpage=$matches[4]\";s:51:\"([0-9]{4})/([0-9]{1,2})/comment-page-([0-9]{1,})/?$\";s:65:\"index.php?year=$matches[1]&monthnum=$matches[2]&cpage=$matches[3]\";s:38:\"([0-9]{4})/comment-page-([0-9]{1,})/?$\";s:44:\"index.php?year=$matches[1]&cpage=$matches[2]\";s:27:\".?.+?/attachment/([^/]+)/?$\";s:32:\"index.php?attachment=$matches[1]\";s:37:\".?.+?/attachment/([^/]+)/trackback/?$\";s:37:\"index.php?attachment=$matches[1]&tb=1\";s:57:\".?.+?/attachment/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:52:\".?.+?/attachment/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:52:\".?.+?/attachment/([^/]+)/comment-page-([0-9]{1,})/?$\";s:50:\"index.php?attachment=$matches[1]&cpage=$matches[2]\";s:33:\".?.+?/attachment/([^/]+)/embed/?$\";s:43:\"index.php?attachment=$matches[1]&embed=true\";s:16:\"(.?.+?)/embed/?$\";s:41:\"index.php?pagename=$matches[1]&embed=true\";s:20:\"(.?.+?)/trackback/?$\";s:35:\"index.php?pagename=$matches[1]&tb=1\";s:40:\"(.?.+?)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:47:\"index.php?pagename=$matches[1]&feed=$matches[2]\";s:35:\"(.?.+?)/(feed|rdf|rss|rss2|atom)/?$\";s:47:\"index.php?pagename=$matches[1]&feed=$matches[2]\";s:28:\"(.?.+?)/page/?([0-9]{1,})/?$\";s:48:\"index.php?pagename=$matches[1]&paged=$matches[2]\";s:35:\"(.?.+?)/comment-page-([0-9]{1,})/?$\";s:48:\"index.php?pagename=$matches[1]&cpage=$matches[2]\";s:24:\"(.?.+?)(?:/([0-9]+))?/?$\";s:47:\"index.php?pagename=$matches[1]&page=$matches[2]\";}', 'yes'),
 (719, '_transient_timeout_wpseo-statistics-totals', '1628847015', 'no'),
 (720, '_transient_wpseo-statistics-totals', 'a:1:{i:1;a:2:{s:6:\"scores\";a:1:{i:0;a:4:{s:8:\"seo_rank\";s:2:\"na\";s:5:\"label\";s:48:\"Posts <strong>without</strong> a focus keyphrase\";s:5:\"count\";i:1;s:4:\"link\";s:113:\"http://localhost/Jasmins_animal_care/wp-admin/edit.php?post_status=publish&#038;post_type=post&#038;seo_filter=na\";}}s:8:\"division\";a:5:{s:3:\"bad\";i:0;s:2:\"ok\";i:0;s:4:\"good\";i:0;s:2:\"na\";i:1;s:7:\"noindex\";i:0;}}}', 'no'),
-(722, '_transient_timeout_wpseo_total_unindexed_posts_limited', '1628766537', 'no'),
-(723, '_transient_wpseo_total_unindexed_posts_limited', '0', 'no'),
-(724, '_transient_timeout_wpseo_total_unindexed_terms_limited', '1628766537', 'no'),
-(725, '_transient_wpseo_total_unindexed_terms_limited', '0', 'no'),
 (726, '_site_transient_timeout_browser_a02ae86a42ae172822f307e07a0629f8', '1629370438', 'no'),
-(727, '_site_transient_browser_a02ae86a42ae172822f307e07a0629f8', 'a:10:{s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:13:\"92.0.4515.131\";s:8:\"platform\";s:7:\"Windows\";s:10:\"update_url\";s:29:\"https://www.google.com/chrome\";s:7:\"img_src\";s:43:\"http://s.w.org/images/browsers/chrome.png?1\";s:11:\"img_src_ssl\";s:44:\"https://s.w.org/images/browsers/chrome.png?1\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;s:6:\"mobile\";b:0;}', 'no');
+(727, '_site_transient_browser_a02ae86a42ae172822f307e07a0629f8', 'a:10:{s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:13:\"92.0.4515.131\";s:8:\"platform\";s:7:\"Windows\";s:10:\"update_url\";s:29:\"https://www.google.com/chrome\";s:7:\"img_src\";s:43:\"http://s.w.org/images/browsers/chrome.png?1\";s:11:\"img_src_ssl\";s:44:\"https://s.w.org/images/browsers/chrome.png?1\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;s:6:\"mobile\";b:0;}', 'no'),
+(729, '_transient_timeout_wpseo_total_unindexed_posts_limited', '1628802327', 'no'),
+(730, '_transient_wpseo_total_unindexed_posts_limited', '0', 'no'),
+(731, '_transient_timeout_wpseo_total_unindexed_terms_limited', '1628802327', 'no'),
+(732, '_transient_wpseo_total_unindexed_terms_limited', '0', 'no');
 
 -- --------------------------------------------------------
 
@@ -1943,7 +1945,7 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=728;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=733;
 
 --
 -- AUTO_INCREMENT for table `wp_postmeta`
@@ -2052,6 +2054,724 @@ ALTER TABLE `wp_yoast_primary_term`
 --
 ALTER TABLE `wp_yoast_seo_links`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+--
+-- Database: `netmatters`
+--
+CREATE DATABASE IF NOT EXISTS `netmatters` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `netmatters`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `contactus`
+--
+
+CREATE TABLE `contactus` (
+  `name` varchar(50) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `telephone` varchar(15) NOT NULL,
+  `subject` varchar(100) NOT NULL,
+  `message` varchar(1000) NOT NULL,
+  `marketing` tinyint(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `contactus`
+--
+
+INSERT INTO `contactus` (`name`, `email`, `telephone`, `subject`, `message`, `marketing`) VALUES
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', 'hjh', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', 'hjh', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', 'hjh', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'ffhf', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'rgyfgfg', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'rgyfgfg', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'dfgdf', 'gdfg', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'dfgdf', 'gdfg', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'ghjghj', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'ghjghj', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'ghj', 'ghjg', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'ffhf', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'test', '51312', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'test', '51312', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'test', '51312', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'test', '51312', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'test', '51312', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'test', '51312', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'test', '51312', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'test', '51312', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'test', '51312', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'dasads', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'ghj', 'ghjg', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', 'gdfdf', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'dasads', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'dasads', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'gjhg', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'gjhg', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'gjhg', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'gjhg', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fggh', 'jjhhh', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fggh', 'jjhhh', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fggh', 'jjhhh', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fggh', 'jjhhh', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fggh', 'jjhhh', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'gjhg', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'dasads', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'jkjkl', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'jkjkl', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', 'jkljk', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', 'jkljk', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', ';;;;;;;', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', ';;;;;;;', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', ';;;', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'lll', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'lll', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'op[o[', 'op[o[', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'op[o[', 'op[o[', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'op[o[', 'op[o[', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'op[o[', 'op[o[', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'op[o[', 'op[o[', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'op[o[', 'op[o[', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'op[o[', 'op[o[', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'llll', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'llll', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '54545', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '54545', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'jlkjkl', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', '456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', '456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', '456', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '4444', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '4444', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '4454', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'jlkjkl', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'fghfh', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'fghfh', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'fghfgh', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'fghfgh', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '23123', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '23123', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '4454', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'test', 'jkl', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'test', 'jkl', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '2456', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'hjhjk', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'hjhjk', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'hjhjk', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'hjhjk', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'hjkhj', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', 'hjkhj', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', '44', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', '44', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', '5245', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', '5245', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', '5245', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', '5245', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', '5245', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', '5245', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'chicken', '5245', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '4545', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '4545', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '4542341', 0),
+('Benjamin Gammage', 'Benjamin.gammage@gmail.com', '07922691627', 'fsd', '4542341', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '24565', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '24565', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '24565', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '24565', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '24565', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '24565', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '24565', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '423423', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '423423', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '423423', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '423423', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '423423', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '423423', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '5456', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '5456', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '5456', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '5456', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '54563', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '54563', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '54563', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '54563', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '5465', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', '07922691627', 'fghfgh', 'fghfgh', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', '07922691627', 'fsd', 'hfghg', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', '07922691627', 'test', 'dasdasdd', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'asdas', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', '07922691627', 'fsd', 'dfgdfg', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'asdasd', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'ghjgj', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'jghjhg', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'gjhfhfgh', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', '07922691627', 'test', 'ljk;l', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', '07922691627', 'dfgdfgd', '45242', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', '07922691627', 'dfgdfgd', '45242', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', '07922691627', 'dfgdfgd', '45242', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '4545', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '456456', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '54564', 0),
+('Ben Gammage', 'benjamin.gammage@gmail.com', '01234567891', 'fsd', '5465', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', '5456', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'hjgh', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'hjgh', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'hjgh', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'hjgh', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'ghgh', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', 'ghgh', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', '07922691627', 'fghfg', 'fghf', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', 'lol', 'fghfg', 'fghf', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', 'lol', 'fghfg', 'fghf', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '44', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', '07922691627', 'chicken', '4444', 0),
+('Dingus mcChongus', 'parrot@email.com', '07922691627', 'chicken', '4545', 0),
+('Dingus mcChongus', 'parrot@email.com', '07922691627', 'chicken', '4455', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '45454', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', '07922691627', 'test', '4454554', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', '07922691627', 'chicken', '4545', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'hjkjh', 'hjkhjk', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '456', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', ';;', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'gfdd', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'gfdd', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'sdfsd', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'sdfsd', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'ffsdf', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'ffsdf', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'fsdf', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'fsdf', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'sdfsd', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'sdfsd', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'asdas', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'asdas', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'fff', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'fff', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'fsdf', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'fsdf', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'fsdf', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'hfghf', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'hfghf', 0),
+('Benjamin Gammage', 'benjamin.gammage@gmail.com', '07922691627', 'test', 'ghn', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'asda', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'asda', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'asda', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'asda', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '45454', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', '45454', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', '55', '44', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', '55', '44', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', '55', '44', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', '55', '44', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '4545', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'dasdas', 0),
+('asd', 'parrot@email.com', '01234567891', 'asd', 'asd', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'd', 'asdasd', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'asdasd', 0),
+('Ben Gammage', 'benjamin.gammage@gmail.com', '00', 'fsd', '0', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'chicken', 'kk', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'dasd', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'dasd', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'test', 'dasd', 0),
+('Dingus mcChongus', 'parrot@email.com', '01234567891', 'fsd', '\r\nl;l', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `news`
+--
+
+CREATE TABLE `news` (
+  `posted_on` date NOT NULL,
+  `posted_by` varchar(50) NOT NULL,
+  `type` varchar(50) NOT NULL,
+  `image_name` varchar(50) NOT NULL,
+  `title` varchar(250) NOT NULL,
+  `text` varchar(1000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `news`
+--
+
+INSERT INTO `news` (`posted_on`, `posted_by`, `type`, `image_name`, `title`, `text`) VALUES
+('2020-11-11', 'Tessa Woodrow', 'News', 'news_image_one.jpg', 'Time to kick-start a new career in Developmen...', 'Give yourself the best chance at a new digital career by applying for one of our FREE trainin...'),
+('2020-11-06', 'Netmatters Ltd', 'News', 'news_image_two.jpg', 'October 2020 Notable Employee', 'The highlight of every month here at Netmatters is the acnnouncement of the \"Notable of not...'),
+('2020-11-11', 'Netmatters Ltd', 'News', 'news_image_three.jpg', 'Netmatters: Norfolk Business Awards 2020 Fina...', 'Announced today, 11th november 2020, Netmatters have made it as finalists in both the skills...'),
+('2021-06-30', 'ben gammage', 'post', '', 'test test test', 'more test text bla bla bla');
+--
+-- Database: `phpmyadmin`
+--
+CREATE DATABASE IF NOT EXISTS `phpmyadmin` DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
+USE `phpmyadmin`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__bookmark`
+--
+
+CREATE TABLE `pma__bookmark` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `dbase` varchar(255) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `user` varchar(255) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `label` varchar(255) CHARACTER SET utf8 NOT NULL DEFAULT '',
+  `query` text COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Bookmarks';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__central_columns`
+--
+
+CREATE TABLE `pma__central_columns` (
+  `db_name` varchar(64) COLLATE utf8_bin NOT NULL,
+  `col_name` varchar(64) COLLATE utf8_bin NOT NULL,
+  `col_type` varchar(64) COLLATE utf8_bin NOT NULL,
+  `col_length` text COLLATE utf8_bin DEFAULT NULL,
+  `col_collation` varchar(64) COLLATE utf8_bin NOT NULL,
+  `col_isNull` tinyint(1) NOT NULL,
+  `col_extra` varchar(255) COLLATE utf8_bin DEFAULT '',
+  `col_default` text COLLATE utf8_bin DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Central list of columns';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__column_info`
+--
+
+CREATE TABLE `pma__column_info` (
+  `id` int(5) UNSIGNED NOT NULL,
+  `db_name` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `table_name` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `column_name` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `comment` varchar(255) CHARACTER SET utf8 NOT NULL DEFAULT '',
+  `mimetype` varchar(255) CHARACTER SET utf8 NOT NULL DEFAULT '',
+  `transformation` varchar(255) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `transformation_options` varchar(255) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `input_transformation` varchar(255) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `input_transformation_options` varchar(255) COLLATE utf8_bin NOT NULL DEFAULT ''
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Column information for phpMyAdmin';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__designer_settings`
+--
+
+CREATE TABLE `pma__designer_settings` (
+  `username` varchar(64) COLLATE utf8_bin NOT NULL,
+  `settings_data` text COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Settings related to Designer';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__export_templates`
+--
+
+CREATE TABLE `pma__export_templates` (
+  `id` int(5) UNSIGNED NOT NULL,
+  `username` varchar(64) COLLATE utf8_bin NOT NULL,
+  `export_type` varchar(10) COLLATE utf8_bin NOT NULL,
+  `template_name` varchar(64) COLLATE utf8_bin NOT NULL,
+  `template_data` text COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Saved export templates';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__favorite`
+--
+
+CREATE TABLE `pma__favorite` (
+  `username` varchar(64) COLLATE utf8_bin NOT NULL,
+  `tables` text COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Favorite tables';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__history`
+--
+
+CREATE TABLE `pma__history` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `username` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `db` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `table` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `timevalue` timestamp NOT NULL DEFAULT current_timestamp(),
+  `sqlquery` text COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='SQL history for phpMyAdmin';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__navigationhiding`
+--
+
+CREATE TABLE `pma__navigationhiding` (
+  `username` varchar(64) COLLATE utf8_bin NOT NULL,
+  `item_name` varchar(64) COLLATE utf8_bin NOT NULL,
+  `item_type` varchar(64) COLLATE utf8_bin NOT NULL,
+  `db_name` varchar(64) COLLATE utf8_bin NOT NULL,
+  `table_name` varchar(64) COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Hidden items of navigation tree';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__pdf_pages`
+--
+
+CREATE TABLE `pma__pdf_pages` (
+  `db_name` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `page_nr` int(10) UNSIGNED NOT NULL,
+  `page_descr` varchar(50) CHARACTER SET utf8 NOT NULL DEFAULT ''
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='PDF relation pages for phpMyAdmin';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__recent`
+--
+
+CREATE TABLE `pma__recent` (
+  `username` varchar(64) COLLATE utf8_bin NOT NULL,
+  `tables` text COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Recently accessed tables';
+
+--
+-- Dumping data for table `pma__recent`
+--
+
+INSERT INTO `pma__recent` (`username`, `tables`) VALUES
+('root', '[{\"db\":\"netmatters\",\"table\":\"contactus\"},{\"db\":\"netmatters\",\"table\":\"news\"},{\"db\":\"mysql\",\"table\":\"user\"},{\"db\":\"phpmyadmin\",\"table\":\"pma__users\"}]');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__relation`
+--
+
+CREATE TABLE `pma__relation` (
+  `master_db` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `master_table` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `master_field` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `foreign_db` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `foreign_table` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `foreign_field` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT ''
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Relation table';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__savedsearches`
+--
+
+CREATE TABLE `pma__savedsearches` (
+  `id` int(5) UNSIGNED NOT NULL,
+  `username` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `db_name` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `search_name` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `search_data` text COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Saved searches';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__table_coords`
+--
+
+CREATE TABLE `pma__table_coords` (
+  `db_name` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `table_name` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `pdf_page_number` int(11) NOT NULL DEFAULT 0,
+  `x` float UNSIGNED NOT NULL DEFAULT 0,
+  `y` float UNSIGNED NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Table coordinates for phpMyAdmin PDF output';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__table_info`
+--
+
+CREATE TABLE `pma__table_info` (
+  `db_name` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `table_name` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
+  `display_field` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT ''
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Table information for phpMyAdmin';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__table_uiprefs`
+--
+
+CREATE TABLE `pma__table_uiprefs` (
+  `username` varchar(64) COLLATE utf8_bin NOT NULL,
+  `db_name` varchar(64) COLLATE utf8_bin NOT NULL,
+  `table_name` varchar(64) COLLATE utf8_bin NOT NULL,
+  `prefs` text COLLATE utf8_bin NOT NULL,
+  `last_update` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Tables'' UI preferences';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__tracking`
+--
+
+CREATE TABLE `pma__tracking` (
+  `db_name` varchar(64) COLLATE utf8_bin NOT NULL,
+  `table_name` varchar(64) COLLATE utf8_bin NOT NULL,
+  `version` int(10) UNSIGNED NOT NULL,
+  `date_created` datetime NOT NULL,
+  `date_updated` datetime NOT NULL,
+  `schema_snapshot` text COLLATE utf8_bin NOT NULL,
+  `schema_sql` text COLLATE utf8_bin DEFAULT NULL,
+  `data_sql` longtext COLLATE utf8_bin DEFAULT NULL,
+  `tracking` set('UPDATE','REPLACE','INSERT','DELETE','TRUNCATE','CREATE DATABASE','ALTER DATABASE','DROP DATABASE','CREATE TABLE','ALTER TABLE','RENAME TABLE','DROP TABLE','CREATE INDEX','DROP INDEX','CREATE VIEW','ALTER VIEW','DROP VIEW') COLLATE utf8_bin DEFAULT NULL,
+  `tracking_active` int(1) UNSIGNED NOT NULL DEFAULT 1
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Database changes tracking for phpMyAdmin';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__userconfig`
+--
+
+CREATE TABLE `pma__userconfig` (
+  `username` varchar(64) COLLATE utf8_bin NOT NULL,
+  `timevalue` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `config_data` text COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='User preferences storage for phpMyAdmin';
+
+--
+-- Dumping data for table `pma__userconfig`
+--
+
+INSERT INTO `pma__userconfig` (`username`, `timevalue`, `config_data`) VALUES
+('root', '2021-08-12 20:51:04', '{\"Console\\/Mode\":\"collapse\"}');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__usergroups`
+--
+
+CREATE TABLE `pma__usergroups` (
+  `usergroup` varchar(64) COLLATE utf8_bin NOT NULL,
+  `tab` varchar(64) COLLATE utf8_bin NOT NULL,
+  `allowed` enum('Y','N') COLLATE utf8_bin NOT NULL DEFAULT 'N'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='User groups with configured menu items';
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `pma__users`
+--
+
+CREATE TABLE `pma__users` (
+  `username` varchar(64) COLLATE utf8_bin NOT NULL,
+  `usergroup` varchar(64) COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Users and their assignments to user groups';
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `pma__bookmark`
+--
+ALTER TABLE `pma__bookmark`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `pma__central_columns`
+--
+ALTER TABLE `pma__central_columns`
+  ADD PRIMARY KEY (`db_name`,`col_name`);
+
+--
+-- Indexes for table `pma__column_info`
+--
+ALTER TABLE `pma__column_info`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `db_name` (`db_name`,`table_name`,`column_name`);
+
+--
+-- Indexes for table `pma__designer_settings`
+--
+ALTER TABLE `pma__designer_settings`
+  ADD PRIMARY KEY (`username`);
+
+--
+-- Indexes for table `pma__export_templates`
+--
+ALTER TABLE `pma__export_templates`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `u_user_type_template` (`username`,`export_type`,`template_name`);
+
+--
+-- Indexes for table `pma__favorite`
+--
+ALTER TABLE `pma__favorite`
+  ADD PRIMARY KEY (`username`);
+
+--
+-- Indexes for table `pma__history`
+--
+ALTER TABLE `pma__history`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `username` (`username`,`db`,`table`,`timevalue`);
+
+--
+-- Indexes for table `pma__navigationhiding`
+--
+ALTER TABLE `pma__navigationhiding`
+  ADD PRIMARY KEY (`username`,`item_name`,`item_type`,`db_name`,`table_name`);
+
+--
+-- Indexes for table `pma__pdf_pages`
+--
+ALTER TABLE `pma__pdf_pages`
+  ADD PRIMARY KEY (`page_nr`),
+  ADD KEY `db_name` (`db_name`);
+
+--
+-- Indexes for table `pma__recent`
+--
+ALTER TABLE `pma__recent`
+  ADD PRIMARY KEY (`username`);
+
+--
+-- Indexes for table `pma__relation`
+--
+ALTER TABLE `pma__relation`
+  ADD PRIMARY KEY (`master_db`,`master_table`,`master_field`),
+  ADD KEY `foreign_field` (`foreign_db`,`foreign_table`);
+
+--
+-- Indexes for table `pma__savedsearches`
+--
+ALTER TABLE `pma__savedsearches`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `u_savedsearches_username_dbname` (`username`,`db_name`,`search_name`);
+
+--
+-- Indexes for table `pma__table_coords`
+--
+ALTER TABLE `pma__table_coords`
+  ADD PRIMARY KEY (`db_name`,`table_name`,`pdf_page_number`);
+
+--
+-- Indexes for table `pma__table_info`
+--
+ALTER TABLE `pma__table_info`
+  ADD PRIMARY KEY (`db_name`,`table_name`);
+
+--
+-- Indexes for table `pma__table_uiprefs`
+--
+ALTER TABLE `pma__table_uiprefs`
+  ADD PRIMARY KEY (`username`,`db_name`,`table_name`);
+
+--
+-- Indexes for table `pma__tracking`
+--
+ALTER TABLE `pma__tracking`
+  ADD PRIMARY KEY (`db_name`,`table_name`,`version`);
+
+--
+-- Indexes for table `pma__userconfig`
+--
+ALTER TABLE `pma__userconfig`
+  ADD PRIMARY KEY (`username`);
+
+--
+-- Indexes for table `pma__usergroups`
+--
+ALTER TABLE `pma__usergroups`
+  ADD PRIMARY KEY (`usergroup`,`tab`,`allowed`);
+
+--
+-- Indexes for table `pma__users`
+--
+ALTER TABLE `pma__users`
+  ADD PRIMARY KEY (`username`,`usergroup`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `pma__bookmark`
+--
+ALTER TABLE `pma__bookmark`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `pma__column_info`
+--
+ALTER TABLE `pma__column_info`
+  MODIFY `id` int(5) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `pma__export_templates`
+--
+ALTER TABLE `pma__export_templates`
+  MODIFY `id` int(5) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `pma__history`
+--
+ALTER TABLE `pma__history`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `pma__pdf_pages`
+--
+ALTER TABLE `pma__pdf_pages`
+  MODIFY `page_nr` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `pma__savedsearches`
+--
+ALTER TABLE `pma__savedsearches`
+  MODIFY `id` int(5) UNSIGNED NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
